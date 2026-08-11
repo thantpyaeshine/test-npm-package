@@ -1,5 +1,5 @@
 {
-  "name": "test-npm-package",
+  "name": "@thantpyaeshine/test-npm-package",
   "version": "1.0.0",
   "description": "\"Npm Package Testing\"",
   "homepage": "https://github.com/thantpyaeshine/test-npm-package#readme",
@@ -12,6 +12,9 @@
   },
   "license": "ISC",
   "author": "thantpyaeshine",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "main": "index.js",
   "scripts": {
